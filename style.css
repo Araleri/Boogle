@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navigation {
+  width: 100%;
+  height: 40px;
+  padding: 7px;
+  overflow: visible;
+}
+
+.desna-poravnava {
+  float: right;
+  overflow: visible;
+  height: 30px;
+  margin: 3px;
+}
+
+.desna-poravnava a {
+  display: inline-block;
+  height: 30px;
+  margin-right: 5px;
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+  font-family: Tahoma;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+.desna-poravnava img {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  image-orientation: center;
+  margin-right: 7px;
+}
+
+.search {
+  width: 100%;
+  height: 518px;
+  padding: 100px;
+  text-align: center;
+}
+
+input {
+  width: 520px;
+  height: 40px;
+}
+
+button {
+  font-family: Tahoma;
+  font-size: 15px;
+  color: #545454;
+  font-weight: normal;
+  display: inline;
+  width: 150px;
+  height: 30px;
+  background-color: #e9e9e9;
+  border: 1px solid #e0e0e0;
+}
+
+.footer1 {
+  width: 100%;
+  height: 39px;
+  padding: 10px;
+  font-family: Tahoma;
+  font-size: 15px;
+  color: #545454;
+  background-color: #e9e9e9;
+  border: 1px solid #e0e0e0;
+}
+
+.footer2 {
+  width: 100%;
+  height: 39px;
+  background-color: #e9e9e9;
+  border: 1px solid #e0e0e0;
+}
+
+.footer2-levo {
+  float: left;
+  padding: 10px;
+
+}
+
+.footer2-desno {
+  float: right;
+  padding: 10px;
+}
+
+.footer2-levo a {
+  margin-right: 7px;
+  font-family: Tahoma;
+  font-size: 15px;
+  text-decoration: none;
+  color: #545454;
+}
+
+.footer2-desno a {
+  margin-right: 7px;
+  font-family: Tahoma;
+  font-size: 15px;
+  text-decoration: none;
+  color: #545454;
+}
